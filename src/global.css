@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: franieExtraBold;
+    src: url(./assets/fonts/FRANIE-EXTRABOLD.OTF);
+}
+
+@font-face {
+    font-family: franieRegular;
+    src: url(./assets/fonts/FRANIE-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: franieSemiBold;
+    src: url(./assets/fonts/FRANIE-SEMIBOLD.OTF);
+}
+
+@font-face {
+    font-family: franieLight;
+    src: url(./assets/fonts/FRANIE-LIGHT.OTF);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: franieRegular;
+    color: #fff;
+}
+
+body, html{
+    background-color: #2e2f32;
+    overflow-x: hidden;
+}
+
+
+
+.font-franieLight{
+    font-family: franieLight;
+}
+
+.font-franieSemiBold{
+    font-family: franieSemiBold;
+}
+
+.font-franiExtraBold{
+    font-family: franieExtraBold;
+}
+
+.bg-banner{
+    background-image: url(./assets/images/bannerMobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+}
+
+ul li.checked {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    padding-left: 30px; 
+    position: relative;
+}
+
+ul li.checked::before {
+    content: '';
+    display: inline-block;
+    width: 24px; 
+    height: 24px; 
+    background: url('./assets/images/checked.svg') no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+}
+
+@media screen and (min-width: 768px){
+    .bg-banner{
+        background-image: url(./assets/images/banner.svg);
+        background-repeat: no-repeat;
+        background-size: 60% 100%;
+        background-position: center right;
+    }
+
+    ul li.checked {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .bg-banner{
+        background-size: 800px 600px;
+        background-position: center right;
+    }
+}
