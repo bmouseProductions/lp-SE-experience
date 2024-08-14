@@ -21,7 +21,13 @@ import jaymeCard from './assets/images/palestrantes/jaymeCard.svg'
 
 import nota from './assets/images/nota.webp'
 import moeda from './assets/images/moeda.webp'
+
 import xProgramação from './assets/images/X-programação.webp'
+
+import unipam from './assets/images/unipam.webp'
+import olhar from './assets/images/olhar.webp'
+import xp from './assets/images/xp.webp'
+import jp from './assets/images/JP.webp'
 
 import iconCoracao from './assets/images/iconCoracao.svg'
 import Whatsapp from './assets/images/whatsapp.png';
@@ -665,6 +671,35 @@ export default function Home() {
                         src={moeda}
                         alt="icone de dinheiro"
                         className='hidden md:block absolute right-[-100px] top-[100px] w-32 xl:w-60 xl:right-[-120px] '
+                    />
+                </div>
+            </section>
+
+            {/* SECTION PATROCINADORES */}
+            <section>
+                <h3 className='text-3xl  text-center font-franieSemiBold'>
+                    Patrocinador <span className='text-[#0fff92] font-franieSemiBold'>Master:</span> 
+                </h3>
+                <img 
+                    src={unipam}
+                    alt="Logo Unipam"
+                    className='mt-5 mx-auto w-full max-w-[300px] '
+                />
+                <div className='grid grid-cols-3 max-w-[600px] mx-auto '>
+                    <img 
+                        src={xp}
+                        alt="Logo Unipam"
+                        className='mt-5 mx-auto w-full max-w-[100px] '
+                    />
+                    <img 
+                        src={jp}
+                        alt="Logo Jovem Pam"
+                        className='mt-5 mx-auto w-full max-w-[100px] '
+                    />
+                    <img 
+                        src={olhar}
+                        alt="Logo Olhar"
+                        className='mt-5 mx-auto w-full max-w-[100px] '
                     />
                 </div>
             </section>
