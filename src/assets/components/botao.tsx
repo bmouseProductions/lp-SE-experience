@@ -12,7 +12,7 @@ const buttonVariants = tv({
     
     size: {
       default: 'w-fit',
-      full: 'w-full'
+      full: 'w-full text-center'
     }
   },
 

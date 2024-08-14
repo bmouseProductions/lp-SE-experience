@@ -36,8 +36,6 @@ body, html{
     overflow-x: hidden;
 }
 
-
-
 .font-franieLight{
     font-family: franieLight;
 }
@@ -75,6 +73,12 @@ ul li.checked::before {
     background-size: contain;
     position: absolute;
     left: 0px;
+}
+
+@media screen and (min-width: 400px) {
+    .bg-banner{
+        min-height: 930px;
+    }
 }
 
 @media screen and (min-width: 768px){
