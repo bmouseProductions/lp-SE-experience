@@ -77,7 +77,7 @@ ul li.checked::before {
 
 @media screen and (min-width: 400px) {
     .bg-banner{
-        min-height: 930px;
+        height: 930px;
     }
 }
 
@@ -99,4 +99,13 @@ ul li.checked::before {
         background-size: 800px 600px;
         background-position: center right;
     }
+}
+
+.ant-collapse-header-text {
+    font-family: franieSemiBold;
+}
+
+.ant-collapse-content-box{
+    width: 100%;
+    font-family: franieLight;
 }
