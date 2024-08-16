@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Countdown from 'react-countdown';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
@@ -179,7 +180,11 @@ export default function Home() {
             <section className='bg-[#463def] '>
                 <div className=' max-w-[1536px] mx-auto h-[1020px] md:h-auto xl:h-[600px] bg-banner'>
                     <div className='pt-10 md:my-0 px-5 md:px-10 lg:px-16 xl:px-20 h-full'>
-                        <div className='w-full h-full md:max-w-[60%] xl:max-w-[650px] flex flex-col md:justify-center gap-7 md:gap-5 xl:gap-10'>
+                        <div 
+                            className='w-full h-full md:max-w-[60%] xl:max-w-[650px] flex flex-col md:justify-center gap-7 md:gap-5 xl:gap-10'
+                            data-aos="fade-up"
+                            data-aos-duration="3000"
+                        >
                             <div className="w-full flex justify-between">
                                 <img 
                                     src={logoEvento}
@@ -226,7 +231,6 @@ export default function Home() {
                                     )}
                                 />
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -240,6 +244,8 @@ export default function Home() {
                     src="https://www.youtube.com/embed/XB0J3mVluWA?si=JCwsAXOa7HcIC3Zx"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    data-aos="flip-left"
+                    data-aos-duration="3000"
                 />
                 <Button children="garanta seu ingresso" variant='secondary' />
             </section>
@@ -512,7 +518,11 @@ export default function Home() {
             
             {/* SECTION INGRESSO */}
             <section className='container mx-auto py-14 md:py-20 px-5 md:px-10 lg:px-16 xl:px-20 flex flex-col gap-5 md:flex-row md:justify-between'>
-                <div className='w-full lg:w-1/2 space-y-4 md:space-y-6'>
+                <div 
+                    className='w-full lg:w-1/2 space-y-4 md:space-y-6'
+                    data-aos="fade-up-right"
+                    data-aos-duration="3000"
+                >
                     <h2 className='text-[40px] font-franieLight'>
                         Adquira <br />
                         <span className='font-franieSemiBold text-[#11fe92] '>seu ingresso</span>
@@ -572,7 +582,11 @@ export default function Home() {
                         className='w-1/2 hidden xl:block'
                     />
 
-                    <div className=' xl:w-1/2 space-y-3  xl:pr-20'>
+                    <div 
+                        className=' xl:w-1/2 space-y-3  xl:pr-20'
+                        data-aos="fade-up-left"
+                        data-aos-duration="3000"
+                    >
                         <h2 className='font-franieLight leading-tight text-[45px] text-[#11fe92] '>
                             Dia <br /> <span className='font-franieSemiBold text-[#11fe92] '>20 de <br /> setembro</span>
                         </h2>
@@ -631,7 +645,11 @@ export default function Home() {
             
             {/* SECTION DESCONTO */}
             <section className='container mx-auto py-14 md:py-20 px-5 md:px-10 lg:px-16 xl:px-20 overflow-hidden'>
-                <div className='relative w-full md:w-[90%] mx-auto px-5 pt-7  md:py-10 xl:py-14 md:px-10 bg-[#463def] rounded'>
+                <div 
+                    className='relative w-full md:w-[90%] mx-auto px-5 pt-7  md:py-10 xl:py-14 md:px-10 bg-[#463def] rounded'
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                >
                     <div className='mx-auto  w-full max-w-3xl flex flex-col items-center gap-5'>
                         <h2 className='text-4xl md:text-5xl text-center text-white font-franieSemiBold'>
                             <span className='text-[#0fff94]'>Ganhe</span> <br />
@@ -666,7 +684,7 @@ export default function Home() {
                 </div>
             </section>
             
-
+            {/* FAQ */}
             <section className='container mx-auto py-14 md:py-20 px-5 md:px-10 lg:px-16 xl:px-20 space-y-4'>
                 <h3 className='font-franieSemiBold text-xl md:text-4xl '>
                     Tem alguma dúvida?
@@ -687,7 +705,7 @@ export default function Home() {
             </section>
 
 
-            {/* SECTION last */}
+            {/* SECTION LAST */}
             <section className='container mx-auto py-14 md:py-20 px-5 md:px-10 lg:px-16 xl:px-20 flex flex-col items-center gap-5'>
                 <img 
                     src={logoEvento}
