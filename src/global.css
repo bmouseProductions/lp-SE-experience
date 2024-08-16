@@ -36,6 +36,18 @@ body, html{
     overflow-x: hidden;
 }
 
+/*ESTILIZAÇÃO SCROLL-BAR */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 8px;
+    background: #2e2f32;
+}
+::-webkit-scrollbar-thumb {
+background: #11fe92;
+border-radius: 8px;
+}
+
 .font-franieLight{
     font-family: franieLight;
 }
@@ -101,9 +113,6 @@ ul li.checked::before {
     }
 }
 
-.ant-collapse-header-text {
-    font-family: franieSemiBold;
-}
 
 .ant-collapse-content-box{
     width: 100%;

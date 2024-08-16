@@ -177,8 +177,8 @@ export default function Home() {
         <>  
             {/* SECTION BANNER */}
             <section className='bg-[#463def] '>
-                <div className=' max-w-[1536px] mx-auto h-[900px] md:h-auto xl:h-[600px] bg-banner'>
-                    <div className='pt-10 md:py-5 md:my-0 px-5 md:px-10 lg:px-16 xl:px-20 h-full'>
+                <div className=' max-w-[1536px] mx-auto h-[1020px] md:h-auto xl:h-[600px] bg-banner'>
+                    <div className='pt-10 md:my-0 px-5 md:px-10 lg:px-16 xl:px-20 h-full'>
                         <div className='w-full h-full md:max-w-[60%] xl:max-w-[650px] flex flex-col md:justify-center gap-7 md:gap-5 xl:gap-10'>
                             <div className="w-full flex justify-between">
                                 <img 
@@ -202,8 +202,31 @@ export default function Home() {
                             <span className='font-franieLight'>
                                 Você é um profissional da área da saúde? Participe do maior evento de empreendedorismo e transforme sua carreira!
                             </span>
+                            <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center gap-5'>
+                                <Button children="comprar ingresso" />
 
-                            <Button children="Saiba mais" />
+                                <Countdown
+                                    date={countdownDate}
+                                    renderer={({ days, hours, minutes }) => (
+                                    <div className='flex justify-start lg:justify-end gap-3'>
+                                        <div className='p-3 flex flex-col justify-center bg-[#0fff94] rounded-xl'>
+                                            <span className="font-franieSemiBold text-4xl lg:text-5xl text-center text-[#2e2f32]">{days}</span>
+                                            <span className='text-center text-[#2e2f32]'>Dias</span>
+                                        </div>
+                                        
+                                        <div className='p-3 flex flex-col justify-center bg-[#0fff94] rounded-xl'>
+                                            <span className="font-franieSemiBold text-4xl lg:text-5xl text-center text-[#2e2f32]">{hours}</span>
+                                            <span className='text-center text-[#2e2f32]'>Horas</span>
+                                        </div>
+                                        <div className='p-3 flex flex-col justify-center bg-[#0fff94] rounded-xl'>
+                                            <span className="font-franieSemiBold text-4xl lg:text-5xl text-center text-[#2e2f32]">{minutes}</span>
+                                            <span className='text-center text-[#2e2f32]'>Minutos</span>
+                                        </div>
+                                    </div>
+                                    )}
+                                />
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -644,13 +667,22 @@ export default function Home() {
             </section>
             
 
-            <section className='container mx-auto py-14 md:py-20 px-5 md:px-10 lg:px-16 xl:px-20 w-full flex flex-col md:flex-row md:gap-5'>
-                <div className='w-full md:w-1/2 border-b-2 border-[#a4a4a5] md:border-b-0 '>
-                    <Faq />
-                </div>
+            <section className='container mx-auto py-14 md:py-20 px-5 md:px-10 lg:px-16 xl:px-20 space-y-4'>
+                <h3 className='font-franieSemiBold text-xl md:text-4xl '>
+                    Tem alguma dúvida?
+                </h3>
+                <p>
+                    Separamos as dúvidas mais frequentes sobre o evento.
+                </p>
 
-                <div className='w-full md:w-1/2'>
-                    <Faq2 />
+                <div className='mt-7 w-full flex flex-col md:flex-row md:gap-5'>
+                    <div className='w-full md:w-1/2 border-b-2 border-[#a4a4a5] md:border-b-0 '>
+                        <Faq />
+                    </div>
+
+                    <div className='w-full md:w-1/2'>
+                        <Faq2 />
+                    </div>
                 </div>
             </section>
 
