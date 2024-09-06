@@ -2,12 +2,12 @@ import { ComponentProps, ReactNode } from "react";
 import { tv, VariantProps } from "tailwind-variants";
 
 const buttonVariants = tv({
-  base: 'px-5 pt-3 pb-2 rounded-2xl text-lg md:text-xl uppercase transition-all',
+  base: 'px-4 pt-3 pb-2 rounded-2xl text-lg md:text-xl uppercase transition-all',
   
   variants: {
     variant: {
-      primary: 'bg-[#2e2f32] text-[#0fff94] text-center hover:bg-[#0fff94] hover:text-[#2e2f32]',
-      secondary: 'bg-[#0fff94] text-[#2e2f32] hover:bg-[#2e2f32] hover:border hover:border-gray-700 hover:text-[#0fff94]',
+      primary: 'bg-[#2e2f32] text-[#0fff94] text-center hover:bg-[#0fff94] hover:text-[#2e2f32] border-2 border-[#2e2f32]',
+      secondary: 'bg-[#0fff94] text-[#2e2f32] hover:bg-[#2e2f32] hover:text-[#0fff94] border-2 border-[#0fff94]',
     },
     
     size: {

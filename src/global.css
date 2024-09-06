@@ -118,3 +118,7 @@ ul li.checked::before {
     width: 100%;
     font-family: franieLight;
 }
+
+:where(.css-dev-only-do-not-override-1c0na6j).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+    padding: 12px 0px;
+}
