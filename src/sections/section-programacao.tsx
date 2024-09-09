@@ -57,6 +57,20 @@ export default function SectionProgramacao() {
                 <SwiperSlide>
                     <div className='p-5 w-full h-full flex flex-col bg-[#463def] rounded-2xl '>
                         <h3 className='text-lg font-franieSemiBold'>
+                            Palestra: Luis Boesel e Igor Coury
+                        </h3>
+
+                        <div className='space-y-3 my-3'>
+                            <span className='font-franieLight'>
+                                <strong>Temas:</strong> Investimentos
+                            </span>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className='p-5 w-full h-full flex flex-col bg-[#463def] rounded-2xl '>
+                        <h3 className='text-lg font-franieSemiBold'>
                             Palestra: Dr. Marcio Tannure
                         </h3>
 
@@ -146,6 +160,23 @@ export default function SectionProgramacao() {
                     <div className='flex bg-[#463def] rounded-2xl overflow-hidden'>
                         <div className='py-5 pl-5 w-full max-w-[60%] flex flex-col justify-center gap-3'>
                             <h3 className='text-2xl font-franieSemiBold'>
+                                Palestra: Luis Boesel e Igor Coury
+                            </h3>
+
+                            <span className='font-franieLight'>
+                                <strong>Temas:</strong> Investimentos
+                            </span>
+                        </div>
+
+                        <img 
+                            src={xProgramação}
+                            alt="" 
+                        />
+                    </div>
+
+                    <div className='flex bg-[#463def] rounded-2xl overflow-hidden'>
+                        <div className='py-5 pl-5 w-full max-w-[60%] flex flex-col justify-center gap-3'>
+                            <h3 className='text-2xl font-franieSemiBold'>
                                 Palestra: Dr. Marcio Tannure
                             </h3>
 
@@ -176,23 +207,23 @@ export default function SectionProgramacao() {
                             alt="" 
                         />
                     </div>
+                </div>
 
-                    <div className='flex bg-[#463def] rounded-2xl overflow-hidden'>
-                        <div className='py-5 pl-5 w-full max-w-[60%] flex flex-col justify-center gap-3'>
-                            <h3 className='text-2xl font-franieSemiBold'>
-                                Palestra: Jayme Monjardim
-                            </h3>
+                <div className=' mx-auto w-full max-w-[49%] mt-5 hidden md:flex bg-[#463def] rounded-2xl overflow-hidden'>
+                    <div className='py-5 pl-5 w-full max-w-[60%] flex flex-col justify-center gap-3'>
+                        <h3 className='text-2xl font-franieSemiBold'>
+                            Palestra: Jayme Monjardim
+                        </h3>
 
-                            <span className='font-franieLight'>
-                                <strong>Temas:</strong> Como criar histórias emocionantes
-                            </span>
-                        </div>
-
-                        <img 
-                            src={xProgramação}
-                            alt="" 
-                        />
+                        <span className='font-franieLight'>
+                            <strong>Temas:</strong> Como criar histórias emocionantes
+                        </span>
                     </div>
+
+                    <img 
+                        src={xProgramação}
+                        alt="" 
+                    />
                 </div>
 
                 <div className='mx-auto mt-10 w-fit flex'>
