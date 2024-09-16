@@ -36,9 +36,15 @@ export default function SectionIngresso() {
                     src={iconCoracao} 
                     alt="icon de coração da logo do Saúde Empreende" 
                 />
-                <span className='text-4xl '>
-                    R$ 600,00
-                </span>
+                
+                
+                    <s className='text-sm text-gray-400'>
+                        R$ 600,00
+                    </s>
+                    <span className='text-4xl '>
+                        R$ 500,00
+                    </span>
+                
 
                 <Button children="garanta seu ingresso" variant="secondary"  />
 

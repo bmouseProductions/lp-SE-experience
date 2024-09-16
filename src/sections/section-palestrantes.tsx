@@ -150,18 +150,20 @@ export default function SectionPalestrantes() {
             da diversificação de renda e a persistência para quem deseja crescer e se destacar no mercado.`
         },
         {
-            name: 'Prof. Dr. Henrique',
-            sobrenome: 'Carivaldo',
+            name: 'Luiz Boesel e',
+            sobrenome: 'Igor Coury',
             img: igorLuisCard
             ,
-            resume: `Luiz Boesel e Igor Coury são Head de Alocação e Partner da Inove Investimentos, um dos braços da XP.  Com uma 
-            sólida experiência no mercado financeiro, eles apresentarão no Saúde Empreende Experience estratégias para equilibrar 
-            riscos e maximizar oportunidades financeiras, garantindo estabilidade e crescimento aos profissionais da saúde.`,
-            about: `Luiz Boesel e Igor Coury são, respectivamente, Head de Alocação e Partner da Inove Investimentos, um dos braços 
-            da XP. Esses profissionais trazem sua vasta experiência em investimentos e planejamento financeiro ao Saúde Empreende 
-            Experience. Com profundo conhecimento sobre diversificação de renda e gestão de capital, ambos são especialistas em 
-            criar estratégias seguras e eficientes no setor financeiro. Ao longo de suas carreiras, ajudaram inúmeros profissionais 
-            a equilibrar riscos e maximizar retornos, sempre com uma abordagem sólida e personalizada.  <br/> <br/>
+            resume: `Luiz Boesel, sócio da Inove Investimentos e Private Banker, e Igor Coury, Head de Asset Allocation, fazem 
+            parte da Inove, um dos braços da XP. Com uma sólida experiência no mercado financeiro, eles apresentarão no Saúde 
+            Empreende Experience estratégias para equilibrar riscos e maximizar oportunidades financeiras, garantindo estabilidade 
+            e crescimento aos profissionais da saúde.`,
+            about: `Luiz Boesel, sócio da Inove Investimentos e Private Banker, e Igor Coury, Head de Asset Allocation, fazem 
+            parte da equipe de um dos braços da grande XP. Esses profissionais trazem sua vasta experiência em investimentos e 
+            planejamento financeiro ao Saúde Empreende Experience. Com profundo conhecimento sobre diversificação de renda e 
+            gestão de capital, ambos são especialistas em criar estratégias seguras e eficientes no setor financeiro. Ao longo 
+            de suas carreiras, ajudaram inúmeros profissionais a equilibrar riscos e maximizar retornos, sempre com uma abordagem 
+            sólida e personalizada. <br/> <br/>
             Na palestra, eles vão compartilhar sua visão estratégica sobre investimentos, abordando temas essenciais para 
             auxiliar os profissionais da saúde a criarem uma base financeira robusta, ampliar fontes de renda e garantir 
             estabilidade em suas carreiras.`

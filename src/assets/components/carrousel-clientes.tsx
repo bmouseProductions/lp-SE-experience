@@ -15,19 +15,25 @@ import zero from "../../assets/images/parceiros/Zero.webp";
 import naimeg from "../../assets/images/parceiros/Naimeg.webp";
 import carpe from "../../assets/images/parceiros/Carpevita.webp";
 import fratele from "../../assets/images/parceiros/Fratele.webp";
+import chagas from "../../assets/images/parceiros/Chagas.webp";
+import nave from "../../assets/images/parceiros/Nave.webp";
+import wine from "../../assets/images/parceiros/Wine.webp";
 
 const slideContent = [
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={inove} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={jp} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={olhar} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={casa} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={bioma} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={madame} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={m3} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={zero} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={naimeg} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={carpe} alt="" />,
-    <img className="max-w-[100px] w-auto h-20 py-3 mx-5 " src={fratele} alt="" />,
+    <img className=" w-auto h-16 py-3 mx-5 " src={inove} alt="" />,
+    <img className=" w-auto h-16 py-3 mx-5 " src={jp} alt="" />,
+    <img className=" w-auto h-16 py-3 mx-5 " src={olhar} alt="" />,
+    <img className=" w-auto h-16 py-3 mx-5 " src={casa} alt="" />,
+    <img className=" w-auto h-14 py-3 mx-5 " src={bioma} alt="" />,
+    <img className=" w-auto h-16 py-3 mx-5 " src={madame} alt="" />,
+    <img className=" w-auto h-16 py-3 mx-5 " src={m3} alt="" />,
+    <img className=" w-auto h-16 py-3 mx-5 " src={zero} alt="" />,
+    <img className=" w-auto h-20 py-3 mx-5 " src={naimeg} alt="" />,
+    <img className=" w-auto h-16 py-3 mx-5 " src={carpe} alt="" />,
+    <img className=" w-auto h-20 py-3 mx-5 " src={fratele} alt="" />,
+    <img className=" w-auto h-20 py-3 mx-5 " src={chagas} alt="" />,
+    <img className=" w-auto h-24 py-3 mx-5 " src={nave} alt="" />,
+    <img className=" w-auto h-20 py-3 mx-5 " src={wine} alt="" />,
 ];
 
 export default function CarrouselParceiros() {
@@ -68,7 +74,7 @@ export default function CarrouselParceiros() {
   return (
         <Slider {...settings} className="my-10  w-full mx-auto flex justify-center ">
             {slideContent.map((slide, index) => (
-                <div key={index} className="!w-full !h-full !mx-auto !flex !justify-center !items-center  text-white">
+                <div key={index} className="!w-full !h-auto !mx-auto !flex !justify-center !items-center  text-white">
                     {slide}
                 </div>
             ))}
