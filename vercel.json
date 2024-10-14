@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/sua-base-url/$1" }
+    ]
+  }
+  
